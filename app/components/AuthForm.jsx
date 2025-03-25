@@ -13,7 +13,7 @@ export default function AuthForm(){
         showLinks={false}
         providers={[]}
         //change redirect when deployed
-        redirectTo='http://localhost:3000/auth/callback'
+        redirectTo='https://never-skip-dessert.vercel.app/auth/callback'
         appearance={{
             theme: 'dark',
             button: {
