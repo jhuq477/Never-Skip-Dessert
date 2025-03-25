@@ -10,7 +10,7 @@ export async function middleware(req) {
     // if user is logged in, dont let them go to login page in "/"
     if (user && req.nextUrl.pathname === '/'){
         // instead of base url (req.url) take them to /watch-list
-        return NextResponse.redirect(new URL('/watch-list', req.url))
+        return NextResponse.redirect(new URL('/meal-board', req.url))
     }
 
     // not logged in, take them to login
@@ -23,5 +23,5 @@ export async function middleware(req) {
 
 // when do we want the middleware to run
 export const config = {
-    matcher: ['/', '/watch-list']
+    matcher: ['/', '/meal-board']
 }
