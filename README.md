@@ -37,5 +37,4 @@ Custom Dark Theme - Dark mode UI with custom styling for:
 ## Features
 
 - User authentication via magic links (passwordless)
--Responsive design that works on mobile and desktop
 - Dark theme UI for comfortable browsing
